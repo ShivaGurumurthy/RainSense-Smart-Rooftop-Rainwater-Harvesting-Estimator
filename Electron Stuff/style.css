@@ -1,0 +1,116 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  width: 700px;
+  background: #ffffff;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0d3b66;
+}
+
+header p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+input:focus {
+  border-color: #0d3b66;
+  outline: none;
+  box-shadow: 0 0 5px rgba(13, 59, 102, 0.3);
+}
+
+button {
+  align-self: flex-start;
+  padding: 12px 25px;
+  background-color: #0d3b66;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #075082;
+  transform: scale(1.02);
+}
+
+/* Output Section */
+.output-section {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.output-section h2 {
+  margin-top: 0;
+  color: #0d3b66;
+}
+
+#results-text {
+  margin: 15px 0;
+  font-size: 1rem;
+  color: #222;
+}
+
+.plot-placeholder {
+  height: 250px;
+  background-color: #d9e2ec;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0d3b66;
+  font-weight: bold;
+  margin-top: 15px;
+}

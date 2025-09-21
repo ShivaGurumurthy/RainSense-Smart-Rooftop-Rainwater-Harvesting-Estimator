@@ -1,0 +1,20 @@
+{
+  "name": "rainsense-electron-app",
+  "version": "1.0.0",
+  "description": "RainSense - Electron wrapper for rainwater estimation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "electron": "^38.1.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.6"
+  }
+}

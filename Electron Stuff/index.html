@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RainSense</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌧️ RainSense</h1>
+      <p>Estimate your rooftop rainwater harvesting potential</p>
+    </header>
+
+    <section class="input-section">
+      <div class="form-group">
+        <label for="locality">Locality:</label>
+        <input type="text" id="locality" placeholder="Navi Mumbai, Whitefield...">
+      </div>
+
+      <div class="form-group">
+        <label for="material">Roof Material:</label>
+        <input type="text" id="material" placeholder="Concrete, Metal, etc.">
+      </div>
+
+      <div class="form-group">
+        <label for="area">Roof Area (m²):</label>
+        <input type="number" id="area" placeholder="100">
+      </div>
+
+      <button id="calculateBtn">Estimate Water</button>
+    </section>
+
+    <section class="output-section" id="output">
+      <h2>Results</h2>
+      <div id="results-text">Enter details and click "Estimate Water" to see results.</div>
+      <div id="results-plot" class="plot-placeholder">Plot images will appear here (coming soon)</div>
+    </section>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
